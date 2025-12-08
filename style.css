@@ -64,19 +64,19 @@ body {
     gap: 1rem;
     margin-top: 0.3rem;
 }
-/* #editBtn {
+.editBtn {
     background-color: red;
     
 }
-#doneBtn {
+.doneBtn {
     background-color: green;
-} */
+}
 .creBtn {
     padding: 0.2rem 0.5rem 0.2rem 0.5rem;
     cursor: pointer;
     border-radius: 0.3rem;
-    /* border: none; */
-    /* color: white; */
+    border: none; 
+    color: white;
 }
 
 
