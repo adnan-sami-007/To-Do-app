@@ -18,11 +18,19 @@ addBtn.addEventListener("click", () => {
                 </div>
             </div>`
 
-
-
-
-
-            
         inpBox.value = '';
     }
-})
+
+    let doneBtn = document.querySelector("#doneBtn");
+    let taskText = document.querySelector(".task");
+
+
+    doneBtn.addEventListener("click", () => {
+        console.log("done");
+        taskText.classList.add("remove");
+        console.log(taskText.innerText)
+    })
+
+});
+
+
